@@ -3,6 +3,9 @@
   "Statement": [
     {
       "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::261951012404:user/ramsai.chitturi@unisys.com"
+      },
       "Action": [
         "s3:GetObject",
         "s3:ListBucket"
@@ -10,15 +13,13 @@
       "Resource": [
         "arn:aws:s3:::advterraformbucket67",
         "arn:aws:s3:::advterraformbucket54"
-      ],
-      "Principal": {
-        "AWS": [
-          "arn:aws:iam::261951012404:user/*"
-        ]
-      }
+      ]
     },
     {
       "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
       "Action": "s3:ReplicateObject",
       "Resource": "arn:aws:s3:::advterraformbucket54/*",
       "Condition": {
