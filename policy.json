@@ -4,6 +4,9 @@
         {
             "Sid": "VisualEditor0",
             "Effect": "Allow",
+            "Principal": {
+        "AWS": "arn:aws:iam::261951012404:user/ramsai.chitturi@unisys.com"
+      },
             "Action": [
                 "s3:GetObject",
                 "s3:ListBucket"
@@ -16,6 +19,9 @@
         {
             "Sid": "VisualEditor1",
             "Effect": "Allow",
+            "Principal": {
+        "AWS": "*"
+          },
             "Action": [
                 "s3:ReplicateObject",
                 "s3:GetObjectVersionTagging",
