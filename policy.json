@@ -4,31 +4,18 @@
         {
             "Sid": "VisualEditor0",
             "Effect": "Allow",
-            "Principal": {
+                  "Principal": {
         "AWS": "*"
       },
             "Action": [
                 "s3:GetObject",
-                "s3:ListBucket"
-            ],
-            "Resource": [
-                "arn:aws:s3:::advterraformbucket67",
-                "arn:aws:s3:::advterraformbucket54/*"
-            ]
-        },
-        {
-            "Sid": "VisualEditor1",
-            "Effect": "Allow",
-            "Principal": {
-        "AWS": "*"
-          },
-            "Action": [
+                "s3:ListBucket",
                 "s3:ReplicateObject",
                 "s3:GetObjectVersionTagging",
                 "s3:ReplicateTags",
                 "s3:ReplicateDelete"
             ],
-            "Resource": "arn:aws:s3:::advterraformbucket54/*"
+            "Resource": "*"
         }
     ]
 }
