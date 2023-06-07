@@ -4,6 +4,11 @@
         {
             "Sid": "VisualEditor0",
             "Effect": "Allow",
+            "Principal": {
+          "AWS": [
+            "*"
+          ]
+        },
             "Action": "s3:ListBucket",
             "Resource": [
                 "arn:aws:s3:::advterraformbucket67/*",
@@ -13,6 +18,11 @@
         {
             "Sid": "VisualEditor1",
             "Effect": "Allow",
+               "Principal": {
+          "AWS": [
+            "*"
+          ]
+        },
             "Action": [
                 "s3:ReplicateObject",
                 "s3:GetObjectVersionTagging",
@@ -24,6 +34,11 @@
         {
             "Sid": "VisualEditor2",
             "Effect": "Allow",
+               "Principal": {
+          "AWS": [
+            "*"
+          ]
+        },
             "Action": "s3:Get*",
             "Resource": [
                 "arn:aws:s3:::*",
