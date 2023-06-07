@@ -11,7 +11,7 @@
         "s3:ListBucket"
       ],
       "Resource": [
-        "arn:aws:s3:::advterraformbucket67",
+        "arn:aws:s3:::advterraformbucket67/*",
         "arn:aws:s3:::advterraformbucket54"
       ]
     },
