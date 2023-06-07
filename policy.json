@@ -9,7 +9,7 @@
         ],
         "Resource": [
           "arn:aws:s3:::advterraformbucket67",
-          "arn:aws:s3:::advterraformbucket54/*"
+          "arn:aws:s3:::advterraformbucket54"
         ],
         "Principal": {
           "AWS": [
