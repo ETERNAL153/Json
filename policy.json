@@ -3,9 +3,9 @@
   "Statement": [
     {
       "Effect": "Allow",
-      "Action": ["s3:GetObject", "s3:ListBucket", "s3:PutBucketPolicy", "s3:GetBucketPolicy"],
+      "Action": ["s3:GetObject", "s3:ListBucket"],
       "Principal": {
-        "AWS":[ "arn:aws:iam:::261951012404:group/CF-Migration-and-Transformation_ADMIN"]
+        "AWS":["arn:aws:iam:::261951012404:user/ramsai.chitturi@unisys.com","arn:aws:iam:::261951012404:user/vijayadurga.panchakarla@unisys.com"]
     },
       "Resource": [
         "arn:aws:s3:::advterraformbucket67",
