@@ -1,17 +1,17 @@
- {
+{
   "Version": "2012-10-17",
   "Statement": [
     {
       "Effect": "Allow",
-      "Action":[ "s3:GetObject","s3:ListBucket","s3:PutBucketPolicy","s3:GetBucketPolicy"],
+      "Action": ["s3:GetObject", "s3:ListBucket", "s3:PutBucketPolicy", "s3:GetBucketPolicy"],
       "Principal": {
-       "AWS" : [
-        "arn:aws:iam::261951012404:user/",
-       ]
-                   },
+        "AWS": [
+          "arn:aws:iam::261951012404:user/"
+        ]
+      },
       "Resource": [
         "arn:aws:s3:::advterraformbucket67",
-       "arn:aws:s3:::advterraformbucket67/*"
+        "arn:aws:s3:::advterraformbucket67/*"
       ]
     }
   ]
