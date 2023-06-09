@@ -5,7 +5,7 @@
       "Effect": "Allow",
       "Action": ["s3:GetObject", "s3:ListBucket", "s3:PutBucketPolicy", "s3:GetBucketPolicy"],
       "Principal": {
-        "AWS":[ "arn:aws:iam::261951012404:user/", 
+        "AWS":[ "arn:aws:iam::261951012404:user", 
                "arn:aws:iam::261951012404:user/*"]
     },
       "Resource": [
