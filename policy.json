@@ -4,9 +4,7 @@
     {
       "Effect": "Allow",
       "Action":[ "s3:GetObject","s3:ListBucket"],
-       "Principal": {
-        "AWS": ["*"]
-      },
+      "Principal": "*",
       "Resource": [
         "arn:aws:s3:::advterraformbucket67",
        "arn:aws:s3:::advterraformbucket67/*"
