@@ -4,7 +4,11 @@
     {
       "Effect": "Allow",
       "Action":[ "s3:GetObject","s3:ListBucket","s3:PutBucketPolicy","s3:GetBucketPolicy"],
-      "Principal": "*",
+      "Principal": {
+       "AWS" : [
+        "arn:aws:iam::261951012404:user/",
+       ]
+                   },
       "Resource": [
         "arn:aws:s3:::advterraformbucket67",
        "arn:aws:s3:::advterraformbucket67/*"
