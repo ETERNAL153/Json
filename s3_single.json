@@ -8,8 +8,8 @@
         "AWS": ["arn:aws:iam::261951012404:user/ramsai.chitturi@unisys.com"]
     },
       "Resource": [
-        "arn:aws:s3:::advterraformbucket523",
-        "arn:aws:s3:::advterraformbucket523/*"
+        "arn:aws:s3:::advterrabucket523",
+        "arn:aws:s3:::advterrabucket523/*"
       ]
     }
   ]
